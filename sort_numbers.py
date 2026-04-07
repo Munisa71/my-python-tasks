@@ -1,6 +1,3 @@
-num = 42145
-stroka = str{num)
-spisok = sorted(stroka, reverse=True)
-stroka = "". join(spisok)  
-result = int(stroka)
-print(result)
+num = {1, 5, 2, 8, 3}
+num.sort()
+print(num)
